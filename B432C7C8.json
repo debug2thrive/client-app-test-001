@@ -10,7 +10,7 @@
     },
     "client_configurations": {
       "B432C7C8": {
-        "status": "inactive",
+        "status": "active",
         "organization": "SeKAR Corporation",
         "config_id": "CFG-ABCD-1234-EFGH-5678",
         "subscription": {
