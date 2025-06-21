@@ -1,0 +1,99 @@
+{
+  "app_settings": {
+    "application": {
+      "name": "BusinessPlatform",
+      "build": "2024.06.1"
+    },
+    "deployment": {
+      "region": "us-east-1",
+      "cdn_enabled": true
+    },
+    "client_configurations": {
+      "B432C7C8": {
+        "organization": "SeKAR Corporation",
+        "config_id": "CFG-ABCD-1234-EFGH-5678",
+        "subscription": {
+          "plan_type": "enterprise",
+          "valid_from": "2024-01-15",
+          "valid_until": "2025-01-15"
+        },
+        "module_access": {
+          "message_module": {
+            "active": true,
+            "quota_limit": 1000,
+            "quota_used": 245,
+            "module_id": "MOD_RPT"
+          },
+          "hightlights_module": {
+            "active": true,
+            "quota_limit": 10000,
+            "quota_used": 3420,
+            "module_id": "MOD_INT"
+          },
+          "collaboration_module": {
+            "active": true,
+            "quota_limit": 50,
+            "quota_used": 12,
+            "module_id": "MOD_COL"
+          },
+          "support_module": {
+            "active": true,
+            "quota_limit": -1,
+            "quota_used": 0,
+            "module_id": "MOD_SUP"
+          }
+        },
+        "admin_info": {
+          "provisioned_by": "admin@company.com",
+          "last_modified": "2024-06-15T10:30:00Z",
+          "configuration_notes": "Full enterprise deployment"
+        }
+      },
+      "AB5678": {
+        "organization": "Tech Startup Inc",
+        "config_id": "CFG-WXYZ-9876-MNOP-4321",
+        "subscription": {
+          "plan_type": "standard",
+          "valid_from": "2024-03-01",
+          "valid_until": "2024-09-01",
+          "status": "na"
+        },
+        "module_access": {
+          "reporting_module": {
+            "active": false,
+            "quota_limit": 0,
+            "quota_used": 0,
+            "module_id": "MOD_RPT"
+          },
+          "integration_module": {
+            "active": true,
+            "quota_limit": 1000,
+            "quota_used": 156,
+            "module_id": "MOD_INT"
+          },
+          "collaboration_module": {
+            "active": true,
+            "quota_limit": 5,
+            "quota_used": 3,
+            "module_id": "MOD_COL"
+          },
+          "support_module": {
+            "active": false,
+            "quota_limit": 0,
+            "quota_used": 0,
+            "module_id": "MOD_SUP"
+          }
+        },
+        "admin_info": {
+          "provisioned_by": "sales@company.com",
+          "last_modified": "2024-03-01T14:22:00Z",
+          "configuration_notes": "Trial evaluation setup"
+        }
+      }
+    },
+    "global_settings": {
+      "maintenance_window": "02:00-04:00 UTC",
+      "feature_rollout_percentage": 85
+    }
+  }
+}
